@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(246, 248, 249);
+    font-family: sans-serif;
+}
+
+.color_white{
+    background-color: white;
+}
+
+.header_top{
+    height: 100px;  
+    padding: 20px 25px;
+}
+
+.header_name{
+    display: inline-block;
+    font-size: 50px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+#logo{
+    height: 60px;
+    vertical-align: middle;
+}
+
+.container{
+    margin: 50px auto 10px;
+    padding-bottom: 5px;
+
+    width: 80%;
+    border-radius: 5px;
+}
+
+.task_manager{
+    margin: 0 50px;
+    height: 60px;
+}
+
+.manager_square{
+    display: inline-block;
+    margin: 15px 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+
+    line-height: 30px;
+    text-align: center;
+}
+
+hr{
+    border-color: rgb(226, 228, 229);
+}
+
+#add_task{
+    background-color: rgb(77, 174, 238);
+    color: white;
+}
+
+#add_section{
+    color: rgb(216, 218, 219);
+    border: 1px solid rgb(216, 218, 219);
+}
+
+.tasks_group{
+    margin: 30px 50px;
+}
+
+ul{
+    list-style: inside;
+}
+
+li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+li::before {
+    display: inline-block;
+    
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.done::before {
+    content: '\2713';
+    color: green;
+    border-color: green;
+}
+
+.to_do::before {
+    content: '\2717';
+    color: red;
+    border-color: red;
+}
+
+.label{
+    display: inline-block;
+
+    height: 20px;
+    width: 80px;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 80%;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.editorial{
+    background-color: rgb(77, 174, 238);
+}
+
+.websites{
+    background-color: rgb(196, 11, 149);
+}
+
+.recluting{
+    background-color: rgb(68, 231, 150);
+}
+
+.q1_goals{
+    background-color: rgb(173, 73, 255);
+}
+
+.sales{
+    background-color: rgb(144, 212, 88);
+}
+
+.mobile{
+    background-color: orange;
+}
